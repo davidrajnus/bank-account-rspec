@@ -1,5 +1,5 @@
 class Account
-  attr_reader :transactions
+  attr_reader :transactions, :acct_number
 
   def initialize(acct_number, starting_balance = 0)
     validate_number(acct_number)
